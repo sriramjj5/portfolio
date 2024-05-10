@@ -3,6 +3,7 @@
 
 .main-body {
     height: 84vh; /* edit this to move main text up/down */
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
