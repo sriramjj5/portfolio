@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     let intervalId;
     if (darkMode) {
-        intervalId = setInterval(createStar, 3000);
+        intervalId = setInterval(createStar, 3500);
     }
     return () => clearInterval(intervalId);
   }, [darkMode]);
@@ -32,8 +32,8 @@ function App() {
       for (let i=0; i < numStars; i++) {
         const star = document.createElement('div');
         star.className = 'star';
-        star.style.top = `${Math.random() * 95}vh`;
-        star.style.left = `${Math.random() * 95}vw`;
+        star.style.top = `${Math.random() * 99.9}vh`;
+        star.style.left = `${Math.random() * 99.9}vw`;
         document.body.appendChild(star);
       }
   }
@@ -43,7 +43,7 @@ function App() {
       <Router>
         <NavBarComponent />
         <div className="darkmode-container">
-          <img onClick={darkModeToggle} style={{cursor: "pointer"}} className="darkmode" src="src/assets/moon.svg" alt="darkmode" height="30" width="30" />
+          <img onClick={darkModeToggle} style={{cursor: "pointer"}} className="darkmode" src="/moon.svg" alt="darkmode" height="30" width="30" />
         </div>
         <div>
           <Routes>

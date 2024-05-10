@@ -37,7 +37,7 @@
   width: 2px;
   height: 2px;
   background-color: #fff;
-  animation: shooting-star 5s linear infinite;
+  animation: shooting-star 4s linear infinite;
 }
 
 @keyframes shooting-star {
