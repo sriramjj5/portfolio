@@ -21,15 +21,15 @@ function NavBarComponent() {
               </a>
             </div>
             <div className="navigation">
-              <Link to="/">Home</Link> 
+              <Link to="/"><span className="link">Home</span></Link> 
               <span className="sep"> | </span> 
-              <Link to="/experience">Experience</Link> 
+              <Link to="/experience"><span className="link">Experience</span></Link> 
               <span className="sep"> | </span> 
-              <Link to="/projects">Projects</Link>
+              <Link to="/projects"><span className="link">Projects</span></Link>
               <span className="sep"> | </span> 
-              <Link to="/academic">Academic</Link> 
+              <Link to="/academic"><span className="link">Academic</span></Link> 
               <span className="sep"> | </span> 
-              <Link to="/misc">Misc.</Link>
+              <Link to="/misc"><span className="link">Misc.</span></Link>
             </div>
         </div>
       </>
