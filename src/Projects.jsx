@@ -5,7 +5,7 @@ function Projects() {
   return (
     <>
       <div>
-        BBBBBBBBBBB
+      Coming soon!
       </div>
     </>
   )

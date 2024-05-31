@@ -5,7 +5,8 @@ function Academic() {
   return (
     <>
       <div>
-        CCCCCCCCCCCCC
+      Coming soon!
+      {/* remember to add coursework experience */}
       </div>
     </>
   )

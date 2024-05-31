@@ -5,7 +5,7 @@ function Misc() {
   return (
     <>
       <div>
-        DDDDDDDDDDDDDD
+      Coming soon!
       </div>
     </>
   )
