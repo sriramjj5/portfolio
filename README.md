@@ -8,5 +8,6 @@ This is a repo for my personal website, showcasing my skills, experience, projec
 
 ## Notable Features
 
+- Mobile-friendly
 - Dark mode (with stars!)
 - Bash script to automate deployment

@@ -41,9 +41,11 @@ function App() {
   return (
     <div className={darkMode ? "dark" : "light"}>
       <Router>
-        <NavBarComponent />
-        <div className="darkmode-container">
-          <img onClick={darkModeToggle} style={{cursor: "pointer"}} className="darkmode" src="/moon.svg" alt="darkmode" height="30" width="30" />
+        <div className="nav-darkmode-container">
+          <NavBarComponent className="navbar" />
+          <div className="darkmode-container">
+            <img onClick={darkModeToggle} style={{cursor: "pointer"}} className="darkmode" src="/moon.svg" alt="darkmode" height="30" width="30" />
+          </div>
         </div>
         <div>
           <Routes>

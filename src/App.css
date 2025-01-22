@@ -2,8 +2,19 @@
   text-align: center;
 }
 
+.nav-darkmode-container {
+  display: grid;
+  flex-direction: column;
+}
+
 .darkmode-container {
-  width: 100vw;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.navbar {
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .darkmode {
