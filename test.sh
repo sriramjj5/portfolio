@@ -1,6 +1,9 @@
 #!/bin/bash
 
 npm run build
+git add .
+git commit --allow-empty -m "$1"
+git push origin -f
 cp -r ./* ../personal-site-github-pages/sriramjj5.github.io
 cd ..
 cd personal-site-github-pages

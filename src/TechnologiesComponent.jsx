@@ -27,10 +27,6 @@ function TechnologiesComponent() {
             <span className="tooltiptext">Python</span>
           </div>
           <div className="tooltip">
-            <img className="techsvg" src="/java.svg" alt="Java" height="32" width="32" />
-            <span className="tooltiptext">Java</span>
-          </div>
-          <div className="tooltip">
             <img className="techsvg" src="/cplusplus.svg" alt="C++" height="32" width="32" />
             <span className="tooltiptext">C++</span>
           </div>
@@ -45,10 +41,6 @@ function TechnologiesComponent() {
           <div className="tooltip">
             <img className="techsvg" src="/aws.svg" alt="AWS" height="32" width="32" />
             <span className="tooltiptext">AWS</span>
-          </div>
-          <div className="tooltip">
-            <img className="techsvg" src="/google-cloud.svg" alt="Google Cloud" height="32" width="32" />
-            <span className="tooltiptext">Google Cloud</span>
           </div>
           <div className="tooltip">
             <img className="techsvg" src="/figma.svg" alt="Figma" height="32" width="32" />
